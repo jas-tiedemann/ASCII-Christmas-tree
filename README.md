@@ -1,4 +1,4 @@
-# ASCII-Christmas-tree
+# ASCII-Christmas-tree - Jasper Tiedemann
 
 This readme file describes how to run the program ASCII Christmas Tree by Jasper Tiedemann ON WINDOWS 10
 
