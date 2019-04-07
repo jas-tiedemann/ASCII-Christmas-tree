@@ -11,7 +11,7 @@ This readme file describes how to run the program ASCII Christmas Tree by Jasper
 
 4. Now you click on the "Home" button to the right side of the "Option" button. Click on the Add Domain button, type in php.dev into the Domain bar and click "Add Domain".
 
-5. Now in your explorer go to the Ampps folder, from there open www, then open the php.dev folder and copy the file called "index" into here.
+5. Now in your explorer go to the Ampps folder, from there open www, then open the php.dev folder and create a file called "index" here. Copy and paste the code into there.
 
 6. The last step is to open you browser and type in the following into the address bar: http://localhost/php.dev/index.php
 
