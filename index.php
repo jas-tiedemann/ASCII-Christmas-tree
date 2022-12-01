@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
-<html>
-
+<html style="background-color: #B0B0B0">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="This is an example of a meta desctiption. This will often show up in search results.">
@@ -16,7 +15,7 @@
             <input type="radio" name="star_appear" value="0"><br>
             </p>
             <p class="text_field">Height of the tree 
-            <input type="text" name="height_of_tree"><br>
+            <input type="text" name="height_of_tree" value="0"><br>
             </p>
             <input type="submit" name="formSubmit" value="Submit">
             
@@ -34,10 +33,10 @@ echo "<center>";
 if (isset($_POST["star_appear"]) &&
     $_POST["star_appear"] == "1") {
     echo "* ";  
-}elseif (isset($_POST["star_appear"]) &&
+} elseif (isset($_POST["star_appear"]) &&
     $_POST["star_appear"] == "0") {
     echo "";
-}else {
+} else {
     echo "</center>";
     echo $start;
     echo "<center>";
